@@ -38,9 +38,9 @@ class Magazine extends LibraryItem {
     }
 }
 
-const book1 = new Book("The Great Gatsby", 1, "F. Scott Fitzgerald", "Fiction");
-const dvd1 = new DVD("Inception", 2, "Christopher Nolan", 148);
-const magazine1 = new Magazine("National Geographic", 3, 202, "National Geographic Society");
+const book1 = new Book("Book1", 1, "Author1", "History");
+const dvd1 = new DVD("DVD1", 2, "Director1", 100);
+const magazine1 = new Magazine("Magazine1", 3, 202, "publisher1");
 
 book1.checkOut(); 
 book1.returnItem(); 
